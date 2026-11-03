@@ -1,0 +1,46 @@
+# Unreal-generated output (project and source-built plugins)
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Generated IDE projects and per-user state; keep .vsconfig
+.vs/
+.idea/
+*.sln
+*.slnx
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+*.vcxproj
+*.vcxproj.filters
+*.opensdf
+*.sdf
+*.ipch
+*.code-workspace
+
+# Visual Studio migration output
+/UpgradeLog*.htm
+/UpgradeLog*.xml
+/Backup/*.sln
+/Backup/*.slnx
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local Python authoring caches (source scripts remain tracked)
+__pycache__/
+*.pyc
+
+# Core project files, assets, external actors/objects, plugin source/content,
+# Build/ packaging resources and .vsconfig are intentionally NOT ignored.
+# A future binary-only plugin needs explicit Binaries/ exceptions before import.
+
+# Pinned external reference checkout; lock, license and audit remain tracked.
+/ThirdPartyReference/Tidewater/
+/ThirdPartyReference/Rocketbox/
